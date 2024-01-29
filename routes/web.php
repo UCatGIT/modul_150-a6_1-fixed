@@ -24,6 +24,10 @@ Route::get('/hello', function () {
     return view("hello");
 });
 
+Route::get('/subjectsEdit', function () {
+    return view("subjectsEdit");
+});
+
 
 /**
  * Display All Tasks

@@ -12,7 +12,7 @@
                 {{ csrf_field() }}
 
                 <div class="form-group mb-3">
-                    <label for="homework-subject" class="col-sm-3 control-label">Subject</label>
+                    <label for="homework-subject" class="col-sm-3 control-label">Subject zum auswählen</label>
 
                     <div class="col-sm-6">
                         <select name="subject" id="homework-subject" class="form-control">
@@ -21,6 +21,12 @@
                             <option value="Englisch">Englisch</option>
                             <option value="Naturwissenschaften">Naturwissenschaften</option>
                         </select>
+
+                        <div class="col-sm-offset-3 col-sm-6">
+                        <a href="/subjectsEdit">edit</a>
+                            
+                        </div>
+                    </div>
                     </div>
                 </div>
 

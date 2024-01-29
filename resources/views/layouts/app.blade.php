@@ -19,6 +19,7 @@
         <div class="navbar-nav ml-auto">
             <a class="nav-item nav-link" href="/homework">Homework</a>
             <a class="nav-item nav-link" href="/hello">Hello World</a>
+            <a class="nav-item nav-link" href="/subjectsEdit">EDIT</a>
         </div>
     </nav>
     @yield('content')
