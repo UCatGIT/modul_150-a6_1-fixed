@@ -42,7 +42,7 @@ Route::post('/homework', function (Request $request) {
     $validator = Validator::make($request->all(), [
         'task' => 'required|max:255',
         'subject' => 'required',
-        'due' => 'required|max:255'
+        'due' => 'required|date'
     ]);
 
     if ($validator->fails()) {

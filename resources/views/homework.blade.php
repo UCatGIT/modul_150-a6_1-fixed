@@ -36,7 +36,7 @@
                     <label for="homework-due" class="col-sm-3 control-label">Due</label>
 
                     <div class="col-sm-6">
-                        <input type="text" name="due" id="homework-due" class="form-control">
+                        <input type="date" name="due" id="homework-due" class="form-control">
                     </div>
                 </div>
 
